@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-17T15:40:56" hostname="Praneshs-MacBook-Pro.local" time="10.169">
+  <properties/>
+  <testcase name="TC001()" classname="com.LoginTest" time="10.169"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
