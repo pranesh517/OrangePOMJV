@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-17T15:40:56" hostname="Praneshs-MacBook-Pro.local" time="10.169">
+<testsuite name="com.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-17T16:13:53" hostname="Praneshs-MacBook-Pro.local" time="12.577">
   <properties/>
-  <testcase name="TC001()" classname="com.LoginTest" time="10.169"/>
+  <testcase name="TC001()" classname="com.LoginTest" time="12.577"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

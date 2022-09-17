@@ -1,5 +1,11 @@
 plugins {
     id 'java'
+    id 'application'
+}
+apply plugin : 'java'
+
+ext {
+    javaMainClass = 'LoginTest'
 }
 
 group 'org.example'
@@ -17,8 +23,21 @@ dependencies {
     implementation group: 'com.microsoft.playwright', name: 'playwright', version: '1.25.0'
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.9.0'
+
 }
 
 test {
     useJUnitPlatform()
+    maxParallelForks 2
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+task runWithJavaExec(type: JavaExec) {
+    group = "Execution"
+    description = "Run the main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    main = javaMainClass
 }
