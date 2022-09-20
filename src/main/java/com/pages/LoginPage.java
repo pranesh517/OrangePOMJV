@@ -28,9 +28,10 @@ public class LoginPage {
         loginButton.click(new Locator.ClickOptions().setForce(true));
     }
 
-    public void loginToOrangeHRMApplication() {
+    public PimLandingPage loginToOrangeHRMApplication() {
         enterUserName();
         enterPassword();
         clickOnLoginButton();
+        return new PimLandingPage(page);
     }
 }
