@@ -7,3 +7,5 @@ To run all the test cases:
 
 To run any specific test case:
 Go to test case and hit the play button in front of test case.
+
+Test case SamplePageTest.java updated to demonstrate how to preserve login state of any application and use it for further testing
